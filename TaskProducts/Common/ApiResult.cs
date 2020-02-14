@@ -71,8 +71,7 @@ namespace TaskProducts.Common
         {
             return new ApiResult<TData>(true, ApiResultStatusCode.Success, data);
         }
-        // اینجا گفتیم هر موقع بجای دیتا اوکی بهت دادن
-        // این شی رو بساز و بازگشت بده
+        
 
         public static implicit operator ApiResult<TData>(OkResult result)
         {
